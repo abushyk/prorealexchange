@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+    <objects>
+        <object>
+            <id>1</id>
+            <language_id>1</language_id>
+            <object_id>1</object_id>
+            <type_id>1</type_id><!-- Назначение недвижимости - обязательное поле -->
+            <!--
+                type_id	name
+                1		Продажа
+                2		Аренда
+            -->
+
+            <object_status>121</object_status><!-- Статус предложения -->
+            <!--
+                object_status	name
+                Продажа:
+                121 			доступно для продажи
+                122 			забронировано
+                123 			продано
+                Аренда:
+                125 			сдается
+                126 			забронировано
+                127 			сдано
+            -->
+
+            <country_id>71</country_id><!-- Страна - номер страны из справочника - обязательное поле -->
+            <!-- смотри файл countries.xml-->
+            <region_id>2</region_id><!--  Регион страны - номер региона из справочника -->
+            <!-- смотри файл regions.xml-->
+            <!-- Хотя бы одно из полей должно быть указано: district_id и/или district -->
+            <district_id>63</district_id><!--  Местность/крупный населенный пункт/город - номер местности из справочника -->
+            <!-- смотри файл districts.xml-->
+            <district>Каварна</district><!--  Местность/крупный населенный пункт/город - строкой  -->
+            <!-- Хотя бы одно из полей должно быть указано: district_id и/или district -->
+            <address>Здравец</address><!-- Адрес, уточнение местности/города -->
+            <!-- Гео-координаты: -->
+            <longitude>15.255119</longitude><!-- долгота -->
+            <latitude>54.525961</latitude><!-- широта -->
+
+            <currency_id>1</currency_id><!-- Валюта - обязательное поле -->
+            <!--
+                currency_id	name
+                1	    	USD
+                2       	EUR
+                3       	RUR
+            -->
+
+            <!-- Только для  продажи: -->
+            <price>255000</price><!-- Цена в Валюте (смотри выше) - обязательное поле для продажи-->
+            <price_per_meter>255</price_per_meter><!-- Цена за метр квадратный -->
+            <!-- Только для продажи -->
+
+            <!-- Только для аренды - обязательна хотя бы одна из цен: -->
+            <price_day>25</price_day>     <!-- Цена аренды за день в Валюте (смотри выше) -->
+            <price_week>150</price_week>  <!-- Цена аренды за неделю в Валюте (смотри выше) -->
+            <price_month>450</price_month><!-- Цена аренды за месяц в Валюте (смотри выше) -->
+            <!-- Только для аренды -->
+
+            <not_show_price>1</not_show_price><!-- Цена по запросу/Не показывать цену на сайте (на детальной странице, в результатах поиска). -->
+
+            <rooms>2</rooms><!-- Общее количество комнат -->
+            <bedrooms>1</bedrooms><!-- Количество спален -->
+            <bathrooms>1</bathrooms><!-- Количество ванных -->
+
+            <square>50</square><!-- Общая площадь/Площадь дома (метров в квадрате) -->
+            <square_land>300</square_land><!-- Площадь участка -->
+            <square_land_unit>128</square_land_unit><!-- Единица измерения площади участка (по умолчанию метров в квадрате)-->
+            <!--
+                square_land_unit	name
+                129 				кв.м.
+                128 				сотки
+                130 				гектары
+                131 				акры
+            -->
+
+            <floor>3</floor><!-- Этаж -->
+            <total_floor>5</total_floor><!-- Этажность (этажей в здании/доме) -->
+
+            <building_type>118</building_type><!-- Время постройки -->
+            <!--
+                building_type	name
+                117	    		Новый дом
+                118       		Строящийся объект
+                119       		Вторичная недвижимость
+            -->
+            <building_date>15.05.2012</building_date><!-- Год постройки/Срок сдачи. Недействительно без указания building_type -->
+
+            <specialtxt>Бунгало в живописном районе Варны</specialtxt><!-- Слоган, краткое описание. Не более 40 символов -->
+            <description><![CDATA[ <p>Описание объекта</p> ]]></description><!-- Описание объекта -->
+            <!-- Если описание объекта содержит html-теги, то помещать описание в CDATA:
+            <description><![CDATA[ <b>Описание объекта</b><br> ]]></description> .
+            Разрешенные html-теги: <p> <div> <table> <tr> <td> <br> <ul> <li> <b> <i> -->
+
+            <!-- Дополнительные характеристики: -->
+            <properties><!-- Контейнер дополнительных свойств -->
+                <!-- смотри файл properties.xml-->
+                <property><!-- Свойство -->
+                    <property_id>133</property_id>
+                    <property_value_enum>135</property_value_enum>
+                </property>
+                <property>
+                    <property_id>11</property_id>
+                    <property_value_enum>10</property_value_enum>
+                </property>
+                <property>
+                    <property_id>11</property_id>
+                    <property_value_enum>1</property_value_enum>
+                </property>
+                <property>
+                    <property_id>12</property_id>
+                    <property_value_enum>14</property_value_enum>
+                    <property_value>500</property_value>
+                    <property_value_unit>147</property_value_unit>
+                </property>
+                <property>
+                    <property_id>54</property_id>
+                    <property_value_enum>56</property_value_enum>
+                    <property_value>20</property_value>
+                </property>
+                <property>
+                    <property_id>50</property_id>
+                    <property_value_enum>53</property_value_enum>
+                </property>
+                <property>
+                    <property_id>39</property_id>
+                    <property_value_enum>43</property_value_enum>
+                </property>
+            </properties>
+
+            <!-- Изображения: -->
+            <images><!-- Контейнер изображений  - объект без изображений не заливается.
+		             Image с iorder = 0 отображается в результатах поисках и при всех выборках.
+					 Если iorder не указано - сортировка в том порядке, что идёт в xml-файле.
+					 Формат изображений: *.jpg, *.gif, *.png
+				-->
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>0</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>1</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>2</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>3</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>4</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>5</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>6</iorder>
+                </image>
+                <image>
+                    <filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+                    <iorder>7</iorder>
+                </image>
+            </images>
+
+            <!-- Видео: -->
+            <videos><!-- Контейнер видео  - одно видео на объект.
+		             filename - путь к видео файлу (формат *.flv),
+		             middle_filename - путь к изображению-заставке для видео (первый кадр) - необязательно
+				-->
+                <video>
+                    <filename>http://static.prian.ru/uploads/2007_08/20090813163503622139085.flv</filename>
+                    <middle_filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</middle_filename>
+                </video>
+            </videos>
+        </object>
+    </objects>
+</root>

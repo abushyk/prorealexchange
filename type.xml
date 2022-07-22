@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <!--Квартиры-->
-    <item id="1">квартира</item>
+    <item id="101">квартира</item>
     <item id="2">апартаменты</item>
     <item id="3">пентхаус</item>
     <item id="4">студия</item>
@@ -20,7 +20,7 @@
     <item id="16">дуплекс</item>
     <item id="17">смежный дом</item>
     <item id="18">дуплекс</item>
-    <item id="19">поместье</item>    
+    <item id="19">поместье</item>
     <item id="20">рядный дом</item>
     <item id="21">мобильный дом</item>
     <!--Гаражи-->
@@ -42,7 +42,8 @@
     <item id="35">кафе</item>
     <item id="36">ресторан</item>
     <item id="37">бар</item>
-    <item id="38">ночной клуб</item>    
-    <item id="39">готовый бизнес</item>    
-    <item id="40">другое</item>    
+    <item id="38">ночной клуб</item>
+    <item id="39">готовый бизнес</item>
+    <item id="40">арендный бизнес</item>
+    <item id="41">другое</item>
 </root>

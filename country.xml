@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item id="1">
+		<ru>Австрия</ru>
+		<en>Austria</en>
+		<regions>
+					<region><ru></ru><en>Burgenland</en></region>
+<region><ru></ru><en>Carinthia</en></region>
+<region><ru></ru><en>Lower Austria</en></region>
+<region><ru></ru><en>Salzburg</en></region>
+<region><ru></ru><en>Styria</en></region>
+<region><ru></ru><en>Tyrol</en></region>
+<region><ru></ru><en>Upper Austria</en></region>
+<region><ru></ru><en>Vienna</en></region>
+<region><ru></ru><en>Vorarlberg</en></region>
+		</regions>
+		
+
+
+
+	</item>
+	<item id="1">
+		<ru>Азербайджан</ru>
+		<en>Azerbaijan</en>
+	</item>
+	<item id="1">
+		<ru>Албания</ru>
+		<en>Albania</en>
+		<regions>
+			<region>
+				<ru></ru>
+				<en>Berat</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Dibër</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Durrës</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Elbasan</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Fier</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Gjirokastër</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Korçë</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Kukës</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Lezhë</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Shkodër</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Tirana</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Vlorë</en>
+			</region>
+		</regions>
+	</item>
+	<item id="1">
+		<ru>Андорра</ru>
+		<en>Andorra</en>
+	</item>
+	<item id="1">
+		<ru>Армения</ru>
+		<en>Armenia></en>
+	</item>
+	<item id="1">
+		<ru>Бельгия</ru>
+		<en>Belgium</en>
+	</item>
+	<item id="1">
+		<ru>Болгария</ru>
+		<en>Bulgaria</en>
+	</item>
+	<item id="1">
+		<ru>Босния и Герцеговина</ru>
+		<en>Bosnia and Herzegovina</en>
+	</item>
+	<item id="1">
+		<ru>Великобритания</ru>
+		<en>United Kingdom</en>
+	</item>
+	<item id="1">
+		<ru>Венгрия</ru>
+		<en>Hungary</en>
+	</item>
+	<item id="1">
+		<ru>Германия</ru>
+		<en>Germany</en>
+	</item>
+	<item id="1">
+		<ru>Греция</ru>
+		<en>Greece</en>
+	</item>
+	<item id="1">
+		<ru>Грузия</ru>
+		<en>Georgia</en>
+	</item>
+	<item id="1">
+		<ru>Дания</ru>
+		<en>Denmark</en>
+	</item>
+	<item id="1">
+		<ru>Израиль</ru>
+		<en></en>
+	</item>
+	<item id="1">
+		<ru>Ирландия</ru>
+		<en>Ireland</en>
+	</item>
+	<item id="1">
+		<ru>Исландия</ru>
+		<en>Iceland</en>
+	</item>
+	<item id="1">
+		<ru>Испания</ru>
+		<en>Spain</en>
+	</item>
+	<item id="1">
+		<ru>Италия</ru>
+		<en>Italy</en>
+	</item>
+	<item id="1">
+		<ru>Казахстан</ru>
+		<en>Kazakhstan</en>
+	</item>
+	<item id="1">
+		<ru>Кипр</ru>
+		<en>Cyprus</en>
+		<regions>
+			<region>
+				<ru></ru>
+				<en>Nicosia</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Famagusta</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Kyrenia</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Larnaca</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Limassol</en>
+			</region>
+			<region>
+				<ru></ru>
+				<en>Paphos</en>
+			</region>
+			
+		</regions>
+	</item>
+	<item id="1">
+		<ru>Латвия</ru>
+		<en>Latvia</en>
+	</item>
+	<item id="1">
+		<ru>Литва</ru>
+		<en>Lithuania</en>
+	</item>
+	<item id="1">
+		<ru>Лихтенштейн</ru>
+		<en>Liechtenstein</en>
+	</item>
+	<item id="1">
+		<ru>Люксембург</ru>
+		<en>Luxembourg</en>
+	</item>
+	<item id="1">
+		<ru>Мальта</ru>
+		<en>Malta</en>
+	</item>
+	<item id="1">
+		<ru>Молдавия</ru>
+		<en>Moldova</en>
+	</item>
+	<item id="1">
+		<ru>Монако</ru>
+		<en>Monaco</en>
+	</item>
+	<item id="1">
+		<ru>Нидерланды</ru>
+		<en>Netherlands</en>
+	</item>
+	<item id="1">
+		<ru>Норвегия</ru>
+		<en>Norway</en>
+	</item>
+	<item id="1">
+		<ru>Польша</ru>
+		<en>Poland</en>
+	</item>
+	<item id="1">
+		<ru>Португалия</ru>
+		<en>Portugal</en>
+	</item>
+	<item id="1">
+		<ru>Румыния</ru>
+		<en>Romania</en>
+	</item>
+	<item id="1">
+		<ru>Сан-Марино</ru>
+		<en>San Marino</en>
+	</item>
+	<item id="1">
+		<ru>Северная Македония</ru>
+		<en>North Macedonia</en>
+	</item>
+	<item id="1">
+		<ru>Сербия</ru>
+		<en>Serbia</en>
+	</item>
+	<item id="1">
+		<ru>Словакия</ru>
+		<en>Slovakia</en>
+	</item>
+	<item id="1">
+		<ru>Словения</ru>
+		<en>Slovenia</en>
+	</item>
+	<item id="1">
+		<ru>Турция</ru>
+		<en>Turkey</en>
+		<regions>
+			<region><ru></ru><en>Aegean Region</en></region>
+<region><ru></ru><en>Black Sea Region</en></region>
+<region><ru></ru><en>Central Anatolia</en></region>
+<region><ru></ru><en>Eastern Anatolia</en></region>
+<region><ru></ru><en>Marmara Region</en></region>
+<region><ru></ru><en>Mediterranean Region</en></region>
+<region><ru></ru><en>Southeastern Anatolia Region</en></region>
+		</regions>		
+
+
+	</item>
+	<item id="1">
+		<ru>Украина</ru>
+		<en>Ukraine</en>
+	</item>
+	<item id="1">
+		<ru>Финляндия</ru>
+		<en>Finland</en>
+	</item>
+	<item id="1">
+		<ru>Франция</ru>
+		<en>France</en>
+	</item>
+	<item id="1">
+		<ru>Хорватия</ru>
+		<en>Croatia</en>
+	</item>
+	<item id="1">
+		<ru>Черногория</ru>
+		<en>Montenegro</en>
+	</item>
+	<item id="1">
+		<ru>Чехия</ru>
+		<en>Czech Republic</en>
+	</item>
+	<item id="1">
+		<ru>Швейцария</ru>
+		<en>Switzerland</en>
+	</item>
+	<item id="1">
+		<ru>Швеция</ru>
+		<en>Sweden</en>
+	</item>
+	<item id="1">
+		<ru>Эстония</ru>
+		<en>Estonia</en>
+	</item>
+	<item id="1">
+		<ru>Россия</ru>
+		<en>Russia</en>
+	</item>
+	<item id="1">
+		<ru>Белоруссия</ru>
+		<en>Belarus</en>
+	</item>
+	<item id="1">
+		<ru>Северный Кипр</ru>
+		<en>North Cyprus</en>
+		<regions>
+			<region>
+				<ru>Лефкоша</ru>
+				<en>Lefkoşa</en>
+			</region>
+			<region>
+				<ru>Газимагуса</ru>
+				<en>Gazimağusa</en>
+			</region>
+			<region>
+				<ru>Гирне</ru>
+				<en>Girne</en>
+			</region>
+			<region>
+				<ru>Гюзельюрт</ru>
+				<en>Güzelyurt</en>
+			</region>
+			<region>
+				<ru>Искеле</ru>
+				<en>İskele</en>
+			</region>
+			<region>
+				<ru>Лефке</ru>
+				<en>Lefke</en>
+			</region>
+		</regions>
+	</item>
+</root>

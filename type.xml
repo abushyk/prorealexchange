@@ -7,7 +7,7 @@
     <item id="4">студия</item>
     <item id="5">мезонет</item>
     <item id="6">лофт</item>
-    <!--Квартиры-->
+    <!--Дома-->
     <item id="7">дом</item>
     <item id="8">таунхаус</item>
     <item id="9">коттедж</item>
@@ -21,7 +21,7 @@
     <item id="17">смежный дом</item>
     <item id="18">дуплекс</item>
     <item id="19">поместье</item>    
-    <item id="20">рядные дома</item>
+    <item id="20">рядный дом</item>
     <item id="21">мобильный дом</item>
     <!--Гаражи-->
     <item id="22">гараж</item>
@@ -34,13 +34,13 @@
     <item id="27">офисное помещение</item>
     <item id="28">складское помещение</item>
     <item id="29">производственное помещение</item>
-    <item id="30">под услуги</item>
+    <item id="30">помещение под услуги</item>
     <item id="31">ПСН</item>
     <item id="32">отель, гостиница</item>
     <item id="33">доходный дом</item>
     <item id="34">инвестиционный проект</item>
     <item id="35">кафе</item>
-    <item id="36"</item>
+    <item id="36">ресторан</item>
     <item id="37">бар</item>
     <item id="38">ночной клуб</item>    
     <item id="39">готовый бизнес</item>    
